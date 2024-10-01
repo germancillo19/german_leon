@@ -1,0 +1,121 @@
+### Evaluación de controles y cumplimiento
+
+#### Estudio de caso
+
+**Este se basa en una empresa ficticia:**
+
+Botium Toys es una pequeña empresa estadounidense que desarrolla y vende juguetes. El negocio tiene una única ubicación física, que sirve como oficina principal, tienda y almacén para sus productos. Sin embargo, la presencia en línea de Botium Toys ha crecido, atrayendo clientes en los EE. UU. y en el extranjero. Como resultado, su departamento de tecnología de la información (TI) se encuentra bajo una presión cada vez mayor para respaldar su mercado en línea en todo el mundo.
+
+La gerente del departamento de TI ha decidido que es necesario realizar una auditoría interna de TI. Expresa su preocupación por no tener un plan de acción consolidado para garantizar la continuidad del negocio y el cumplimiento, a medida que el negocio crece. Ella cree que una auditoría interna puede ayudar a asegurar mejor la infraestructura de la empresa y ayudarlos a identificar y mitigar posibles riesgos, amenazas o vulnerabilidades para los activos críticos. La gerente también está interesada en garantizar que cumplan con las regulaciones relacionadas con el procesamiento interno y la aceptación de pagos en línea y la realización de negocios en la Unión Europea (UE).
+
+La gerente de TI comienza implementando el Marco de seguridad cibernética del Instituto Nacional de Estándares y Tecnología (NIST CSF), estableciendo un alcance y objetivos de auditoría, enumerando los activos administrados actualmente por el departamento de TI y completando una evaluación de riesgos. El objetivo de la auditoría es proporcionar una descripción general de los riesgos y/o multas que la empresa podría experimentar debido al estado actual de su postura de seguridad.
+
+Su tarea es revisar el alcance, los objetivos y el informe de evaluación de riesgos del gerente de TI. Luego, realice una auditoría interna completando una lista de verificación de controles y cumplimiento.
+
+#### Escenario
+
+**Botium Toys: Alcance, objetivos e informe de evaluación de riesgos**
+
+##### Alcance
+
+El alcance se define como todo el programa de seguridad en Botium Toys. Esto significa que todos los activos deben evaluarse junto con los procesos y procedimientos internos relacionados con la implementación de las mejores prácticas de control y cumplimiento.
+
+##### Objetivos
+
+Evaluar los activos existentes y completar la lista de verificación de controles y cumplimiento para determinar qué controles y mejores prácticas de cumplimiento deben implementarse para mejorar la postura de seguridad de Botium Toys.
+
+##### Activos actuales
+
+Los activos administrados por el Departamento de TI incluyen:
+* Equipos locales para las necesidades comerciales de la oficina
+* Equipo de empleados: dispositivos de usuario final (computadoras de escritorio/portátiles, teléfonos inteligentes), estaciones de trabajo remotas, auriculares, cables, teclados, ratones, estaciones de acoplamiento, cámaras de vigilancia, etc.
+* Productos de escaparate disponibles para la venta al por menor en el sitio y en línea; almacenados en el almacén contiguo de la empresa
+* Gestión de sistemas, software y servicios: contabilidad, telecomunicaciones, base de datos, seguridad, comercio electrónico y gestión de inventario
+* Acceso a Internet
+* Red interna
+* Retención y almacenamiento de datos
+* Mantenimiento del sistema heredado: sistemas al final de su vida útil que requieren monitoreo humano
+
+##### Evaluación de riesgos
+
+###### Descripción del riesgo
+
+Actualmente, existe una gestión inadecuada de los activos. Además, Botium Toys no tiene todos los controles adecuados implementados y es posible que no cumpla completamente con las regulaciones y estándares de EE. UU. e internacionales.
+
+###### Mejores prácticas de control
+
+La primera de las cinco funciones del NIST CSF es Identificar. Botium Toys deberá dedicar recursos para identificar activos para poder gestionarlos adecuadamente. Además, deberán clasificar los activos existentes y determinar el impacto de la pérdida de los activos existentes, incluidos los sistemas, en la continuidad del negocio.
+
+###### Puntaje de riesgo
+
+En una escala del 1 al 10, el puntaje de riesgo es 8, que es bastante alto. Esto se debe a la falta de controles y al cumplimiento de las mejores prácticas de cumplimiento.
+
+###### Comentarios adicionales
+
+El impacto potencial por la pérdida de un activo se califica como medio, porque el departamento de TI no sabe qué activos estarían en riesgo. El riesgo para los activos o las multas de los órganos rectores es alto porque Botium Toys no tiene todos los controles necesarios implementados y no cumple completamente con las mejores prácticas relacionadas con las regulaciones de cumplimiento que mantienen la información crítica privada/segura.
+
+Revise los siguientes puntos para obtener detalles específicos:
+
+###### Información adicional
+
+En ciberseguridad, los tipos de control se pueden clasificar de tres maneras:
+1. Controles administrativos/gerenciales
+2. Controles técnicos
+3. Controles físicos/operativos
+
+Los tipos de control (que brindan defensa y protección de activos) incluyen, entre otros:
+1. Preventivo (evitar que ocurra un incidente en primer lugar)
+2. Correctivo (restaurar un activo después de un incidente)
+3. Detectivo (Determinar si un incidente ha ocurrido o está en progreso)
+4. Disuasivo (desalentar los ataques)
+
+## Lista de verificación de evaluación de controles
+
+¿Botium Toys tiene actualmente este control implementado?
+| Sí / No / ? | Control | Explicación |
+| :-------        |    :---:   | :---     |
+| No | Menos privilegio | Los empleados tienen acceso a los datos de los clientes. Esto debe cambiarse para reducir el riesgo de incumplimiento. |
+| No | Plan de recuperación ante desastres | En este momento, no existe un plan para manejar desastres. Implementar esto asegura la continuidad del negocio. |
+| Sí | Cortafuegos | La organización tiene un cortafuegos para bloquear el tráfico en función de un conjunto de reglas de seguridad definidas adecuadamente. |
+| ? | Políticas de contraseña | Existe una política de contraseñas, pero los requisitos se consideran débiles y ponen en riesgo el acceso a la gestión de identidades. |
+| Sí | Antivirus | El software antivirus está activo y el equipo de TI lo supervisa periódicamente. |
+| No | Copias de seguridad | Esto es lo mismo que el plan de recuperación ante desastres. No están preparados en caso de incumplimiento. Tienen que implementar el plan de respaldo, como incremental, completo o parcial. |
+| No | Cifrado | Esto protegería la confidencialidad de los datos. |
+| No | IDS | Esto ayudaría al equipo de TI a identificar posibles intrusiones de los actores de amenazas. |
+| Sí | Escaparate | Aunque el equipo de TI no es responsable de la gestión en la tienda, la organización debe tener suficientes cerraduras. |
+| Sí | CCTV | Está funcionando y funcionando. |
+| Sí | Detección de incendios | La organización los tiene. Sin embargo, el equipo debe mantenerlo y establecer un plan sobre cómo usarlo. |
+
+## Lista de verificación de cumplimiento
+
+¿Botium Toys cumple actualmente con esta mejor práctica de cumplimiento?
+* Estándar de seguridad de datos de la industria de tarjetas de pago (PCI DSS)
+| Sí / No / ? | Mejor práctica | Explicación |
+| :---        |    :---:   | :---     |
+| No | Los usuarios autorizados pueden acceder a la tarjeta de crédito del cliente. | Por el momento, todos los empleados tienen acceso a ella, lo cual es una mala práctica en el negocio.  |
+| No | La tarjeta de crédito se almacena en un entorno seguro. | No está encriptado y viola la ley y los reglamentos. |
+| No | El cifrado está asegurado. | No, el cifrado aún no se ha realizado. |
+
+* GDPR
+| Sí / No / ? | Mejor práctica | Explicación |
+| :---        |    :---:   | :---     |
+| No | Los clientes de la UE se mantienen seguros. | La organización no aplica la práctica GDPR. Por lo tanto, los pone en riesgo de ser multados por el gobierno de la UE. |
+| Sí | Las políticas de privacidad se mantienen correctamente. | Según el escenario, ha sido aplicado por los miembros del equipo de TI y demás personal. |
+
+* Controles del sistema y las organizaciones
+| Sí / No / ? | Mejor práctica | Explicación |
+| :---        |    :---:   | :---     |
+| No | Se establecen políticas de acceso de usuario | Los empleados tienen acceso a los datos almacenados internamente, lo que significa que la política de acceso no se ha aplicado. |
+| Sí | La integridad de los datos es consistente, completa y precisa | La integridad de los datos está en su lugar. |
+| No | Los datos están disponibles para usuarios autorizados | Actualmente, todos los empleados pueden acceder a todos los datos. |
+
+## Recomendaciones (opcional)
+
+Después de investigar la postura de seguridad de Botium Toys, los analistas coincidieron en que la práctica de seguridad está lejos de las expectativas. Carece de protección de la confidencialidad de la información sensible. Los siguientes son:
+1. Menos privilegio
+2. Plan de recuperación ante desastres
+3. Políticas de contraseña
+4. Cifrado
+5. Sistema de gestión de contraseñas
+
+Para abordar las brechas en el cumplimiento, Botium necesita implementar y establecer las políticas que puedan abordar lo anterior. Botium también necesita actualizar sus activos para que el control adicional se pueda identificar lo antes posible para mejorar su práctica de seguridad.
